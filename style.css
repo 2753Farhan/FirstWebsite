@@ -1,0 +1,40 @@
+body{
+    background-image: url(/image/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+a{
+    background: linear-gradient(to left,skyblue,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1{
+    background: linear-gradient(to left,skyblue,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    background-color:crimson;
+    color: aqua;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+}
+table{
+    background-color:black;
+    color: aqua;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+
+}
