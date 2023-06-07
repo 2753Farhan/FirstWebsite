@@ -6,10 +6,11 @@ body{
     background-size: cover;
 
 }
-a{
-    background: linear-gradient(to left,skyblue,white);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+a:link{
+       color: lawngreen;
+}
+a:visited{
+        color: gray;
 }
 
 
