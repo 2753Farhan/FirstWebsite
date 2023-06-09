@@ -44,10 +44,7 @@ document.getElementById("rbutton").onclick = function(){
     var z;
     x=document.getElementById("fnumber").value;
     y=document.getElementById("lnumber").value;
-    console.log(x);
-    console.log(y);
     z=Math.floor(Math.random()*(y-x+1)+Math.round(x-0.5));
-    console.log(z);
 
     document.getElementById("pr").innerHTML = "Your random number is : " + z;
 }
