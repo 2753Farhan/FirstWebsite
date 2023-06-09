@@ -19,7 +19,6 @@ h1{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 p{
     background-color:crimson;
     color: aqua;
@@ -29,6 +28,7 @@ p{
     border-radius: 10px;
     padding: 5px;
 }
+
 table{
     background-color:black;
     color: aqua;
