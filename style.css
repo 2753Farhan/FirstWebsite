@@ -39,3 +39,9 @@ table{
     padding: 5px;
 
 }
+#countlabel{
+    color: aqua;
+    display: block;
+    text-align:justify;
+    font-size: 50px;
+}
