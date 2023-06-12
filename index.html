@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+
     <h1>My Github profile</h1>
     <hr>
     <a href="https://github.com/2753Farhan " target="_self" title="Github profile of Shuvro">Github </a>
@@ -47,12 +47,39 @@
     <button id="decreasebutton">decrease</button>
     <button id="increasebutton">increase</button>
     <button id="resetbutton">reset</button>
-    <P>Random number generator: </P><br>
+
+    <h1>Random number generator: </h1><br>
     <label style="color: aqua;">Enter the 1st and last number:</label><br>
     <input type="number" id="fnumber" placeholder="first number"><br>
     <input type="number" id="lnumber" placeholder="last number"><br>
     <button type="button" id="rbutton">Generate</button>
     <p id="pr"></p>
+
+    <label for="pizza" style="color: white;">Pizza</label>
+    <input type="radio" name="food" id="pizza">
+    <label for="burger" style="color: white;">Burger</label>
+    <input type="radio" name="food" id="burger"><br>
+    <button id="cbutton">Submit</button>
+
+    <h1>Number Guessing</h1>
+    <p>Enter a number between 1 to 10</p>
+    <label for="guessfield" style="color: aqua;">Enter a guess</label>
+    <input id="guessfield">
+    <input type="submit" id="guessbutton"><br>
+
+    <h1>Temperature conversion: </h1><br>
+    <label style="color: aqua">Enter a temperature</label>
+    <input type="text" id="tempval"><br>
+    <label style="color: aqua">Convert to: </label>
+    <input type="radio" name="unit"  id="celciusbutton">
+    <label for="cbutton" style="color: white;">Celcius</label>
+    <input type="radio" name="unit"  id="furrenhitebutton">
+    <label for="rbutton" style="color: aliceblue;">farenhite</label><br>
+    
+    <button type="submit" id="tembutton">submit</button>
+    <label id="templabel"></label>
+
     <script src="index.js"></script>
+    
 </body>
 </html>
