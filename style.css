@@ -1,5 +1,6 @@
 body{
-    background-image: url(../image/background.PNG);
+    /*background-image: url(../image/background.PNG);*/
+    background-color: rgb(51, 51, 125);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
